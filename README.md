@@ -47,6 +47,17 @@ Output (10 classes)
 
 ---
 
+## 📂 Files Included
+
+- `README.md` – This file
+- `css.ipynb` – Python Notebook for model training
+- `app.py` – Python File for flask
+- `index.html` – HTML file
+- `style.css` – CSS file
+- `script.js` - JS file
+
+---
+
 ## 🛠️ Technologies Used
 
 ### Backend
