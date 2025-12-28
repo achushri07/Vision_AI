@@ -1,4 +1,4 @@
-# 🤖 AI Vision Classifier - Retro Edition
+# 🤖 AI Image Classifier - Retro Edition
 
 A retro-styled web application for real-time image classification using deep learning. Built with TensorFlow/Keras and deployed via Flask, featuring a nostalgic cartoon-comic aesthetic inspired by classic arcade gamesshowcasing the power of Convolutional Neural Networking.
 
