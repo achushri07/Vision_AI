@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Image Classifier - Retro Edition</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Baloo+2:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="comic-bg"></div>
+    
+    <div class="container">
+        <header class="retro-header">
+            <div class="comic-burst">POW!</div>
+            <h1 class="retro-title">
+                <span class="title-main">VISION AI</span>
+            </h1>
+            <div class="subtitle-box">
+                <p>★ SUPER POWERED IMAGE CLASSIFIER ★</p>
+            </div>
+        </header>
+
+        <div class="comic-panels">
+            <!-- Upload Panel -->
+            <div class="comic-panel panel-1">
+                <div class="panel-header">
+                    <div class="panel-tab">EPISODE 1</div>
+                    <h2>UPLOAD YOUR IMAGE!</h2>
+                    <div class="speech-bubble">Drop it like it's hot! 🔥</div>
+                </div>
+                
+                <div class="panel-content">
+                    <div class="upload-zone" id="uploadBox">
+                        <div class="cartoon-robot">
+                            <div class="robot-head">
+                                <div class="robot-eye"></div>
+                                <div class="robot-eye"></div>
+                                <div class="robot-antenna"></div>
+                            </div>
+                            <div class="robot-body"></div>
+                        </div>
+                        <h3>DRAG & DROP</h3>
+                        <p>Or click to choose your adventure!</p>
+                        <div class="file-badge">JPG • PNG • JPEG</div>
+                        <input type="file" id="fileInput" accept="image/*" hidden>
+                    </div>
+
+                    <div class="preview-box" id="previewSection" style="display: none;">
+                        <img id="imagePreview" alt="Preview">
+                        <button class="comic-btn-remove" id="removeBtn">✕ ZAP!</button>
+                    </div>
+
+                    <button class="mega-button" id="predictBtn" disabled>
+                        <span class="btn-text">
+                            PREDICT NOW!
+                            <span class="btn-icon">🚀</span>
+                        </span>
+                        <span class="btn-loader" style="display: none;">
+                            <div class="retro-loader"></div>
+                        </span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Results Panel -->
+            <div class="comic-panel panel-2" id="resultsSection" style="display: none;">
+                <div class="panel-header">
+                    <div class="panel-tab">EPISODE 2</div>
+                    <h2>PREDICTION REVEALED!</h2>
+                    <div class="speech-bubble">Eureka! I found it! 💡</div>
+                </div>
+                
+                <div class="panel-content">
+                    <div class="result-explosion">
+                        <div class="explosion-text">BOOM!</div>
+                        <div class="result-box">
+                            <div class="result-label">IT'S A...</div>
+                            <div class="result-answer" id="predictionClass">???</div>
+                            <div class="confidence-meter">
+                                <span class="meter-label">CONFIDENCE LEVEL:</span>
+                                <div class="meter-bar">
+                                    <div class="meter-fill" id="confidenceMeter"></div>
+                                    <span class="meter-value" id="confidenceBadge">0</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="scores-section">
+                        <h3>⚡ RAW SCORES ⚡</h3>
+                        <div class="scores-list" id="probabilityBars"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="retro-footer">
+            <div class="footer-stamp">EST. 2025</div>
+            <p>★ POWERED BY TENSORFLOW & FLASK ★</p>
+            <div class="footer-burst">BAM!</div>
+        </footer>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
