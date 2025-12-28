@@ -2,9 +2,19 @@
 
 A retro-styled web application for real-time image classification using deep learning. Built with TensorFlow/Keras and deployed via Flask, featuring a nostalgic cartoon-comic aesthetic inspired by classic arcade gamesshowcasing the power of Convolutional Neural Networking.
 
+---
+
 ## 🔍 Overview
 
 This project implements a Convolutional Neural Network (CNN) trained on the CIFAR-10 dataset to classify images into 10 distinct categories. The model is wrapped in a Flask web application with an engaging retro UI that provides real-time predictions with confidence scores and class probability distributions.
+
+---
+
+## 📸 Screenshot
+<img width="1348" height="630" alt="image" src="https://github.com/user-attachments/assets/e035a074-c677-4c7b-8efb-32e276767811" />
+<img width="1351" height="635" alt="image" src="https://github.com/user-attachments/assets/0336d550-bcd7-4a6d-9c02-0ef199514f2a" />
+
+---
 
 ## 🏗️ Architecture
 
@@ -32,6 +42,8 @@ Dense (10 units) + Softmax
 Output (10 classes)
 ```
 
+---
+
 ## 🛠️ Technologies Used
 
 ### Backend
@@ -47,6 +59,7 @@ Output (10 classes)
 - **JavaScript (ES6+)**: Async/await, Fetch API, DOM manipulation
 - **Google Fonts**: Fredoka One, Baloo 2
 
+---
 
 ## 🤝 Contributing
 
@@ -58,6 +71,8 @@ Contributions are welcome! Please follow these steps:
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
+---
+
 ### Contribution Guidelines
 
 - Follow PEP 8 style guide for Python code
@@ -65,6 +80,8 @@ Contributions are welcome! Please follow these steps:
 - Add comments for complex logic
 - Update documentation for new features
 - Test thoroughly before submitting PR
+
+---
 
 ## 🙏 Acknowledgments
 
