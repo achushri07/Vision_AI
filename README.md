@@ -13,6 +13,8 @@ This project implements a Convolutional Neural Network (CNN) trained on the CIFA
 ## 📸 Screenshots
 <img width="1348" height="630" alt="image" src="https://github.com/user-attachments/assets/e035a074-c677-4c7b-8efb-32e276767811" />
 
+
+
 <img width="1351" height="635" alt="image" src="https://github.com/user-attachments/assets/0336d550-bcd7-4a6d-9c02-0ef199514f2a" />
 
 ---
