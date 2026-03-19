@@ -1,16 +1,16 @@
-# 🤖 AI Image Classifier - Retro Edition
+# AI Image Classifier - Retro Edition
 
 A retro-styled web application for real-time image classification using deep learning. Built with TensorFlow/Keras and deployed via Flask, featuring a nostalgic cartoon-comic aesthetic inspired by classic arcade gamesshowcasing the power of Convolutional Neural Networking.
 
 ---
 
-## 🔍 Overview
+## Overview
 
 This project implements a Convolutional Neural Network (CNN) trained on the CIFAR-10 dataset to classify images into 10 distinct categories. The model is wrapped in a Flask web application with an engaging retro UI that provides real-time predictions with confidence scores and class probability distributions.
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 <img width="1348" height="630" alt="image" src="https://github.com/user-attachments/assets/e035a074-c677-4c7b-8efb-32e276767811" />
 
 
@@ -19,7 +19,7 @@ This project implements a Convolutional Neural Network (CNN) trained on the CIFA
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ### Model Architecture
 
@@ -47,18 +47,18 @@ Output (10 classes)
 
 ---
 
-## 📂 Files Included
+## Files Included
 
 - `README.md` – This file
-- `css.ipynb` – Python Notebook for model training
+- `cnn.ipynb` – Python Notebook for model training
 - `app.py` – Python File for flask
-- `index.html` – HTML file
-- `style.css` – CSS file
-- `script.js` - JS file
+- `templates/index.html` – HTML file
+- `static/style.css` – CSS file
+- `static/script.js` - JS file
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 ### Backend
 - **Python**: Core programming language
@@ -75,7 +75,7 @@ Output (10 classes)
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please follow these steps:
 
@@ -97,7 +97,7 @@ Contributions are welcome! Please follow these steps:
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - CIFAR-10 dataset by Alex Krizhevsky, Vinod Nair, and Geoffrey Hinton
 - TensorFlow and Keras teams for the deep learning framework
@@ -106,4 +106,4 @@ Contributions are welcome! Please follow these steps:
 
 ---
 
-**Made with ❤️ and Python** | **Powered by TensorFlow** | **Styled with Retro Vibes** 🎮
+**Made with ❤️ and Python** | **Powered by TensorFlow** | **Styled with Retro Vibes** 
